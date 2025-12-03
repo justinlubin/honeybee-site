@@ -75,6 +75,12 @@ h2 {
 	margin-top: 20px;
 }
 
+h3 {
+	font-size: 1.05em;
+	font-weight: bold;
+	margin-top: 12px;
+}
+
 footer {
 	border-top: 1px dotted black;
 	padding-top: 10px;
@@ -96,7 +102,7 @@ b {
 	font-weight: bold;
 }
 
-i {
+em, i {
 	font-style: italic;
 }
 
@@ -118,4 +124,8 @@ video {
 
 img {
 	width: 100%;
+}
+
+.system-name {
+	font-variant-caps: small-caps;
 }
