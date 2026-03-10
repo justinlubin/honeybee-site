@@ -143,3 +143,32 @@ img {
 .system-name {
 	font-variant-caps: small-caps;
 }
+
+.banner {
+	background-color: hsl(6.6, 50%, 50.78%);
+	border: 2px solid rgba(0, 0, 0, 0.2);
+	color: white;
+	padding: 2px;
+
+	max-width: 840px;
+	margin: auto;
+
+	border-radius: 5px;
+
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	line-height: 1.2;
+}
+
+.banner .text {
+	font-size: 0.8em;
+	padding: 0 10px;
+}
+
+.banner .icon {
+	font-size: 2em;
+	padding: 0 10px;
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+}
