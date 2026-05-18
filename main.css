@@ -1,8 +1,18 @@
-body {
-	background-image: url("assets/bg.png");
-	background-repeat: repeat;
+:root {
+	font-family: Inter, sans-serif;
+	font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
 
-	font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+@supports (font-variation-settings: normal) {
+	:root { font-family: InterVariable, sans-serif; }
+}
+
+body {
+	background-image: url("assets/bg.svg");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-size: 100px 94px;
+
 	font-size: 17px;
 	line-height: 1.6;
 	padding: 10px;
@@ -59,8 +69,7 @@ header {
 }
 
 header .subtitle {
-	margin-bottom: -3px;
-	font-style: italic;
+	margin-bottom: -5px;
 	font-size: 0.8em;
 }
 
